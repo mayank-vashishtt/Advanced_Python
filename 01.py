@@ -73,3 +73,47 @@ print(isinstance(a, int))  # True
 
 a = 1 + 2j 
 print(isinstance(a, complex))  # True
+ 
+# -8//3 = -3   -- one step lesser than 8/3
+# -8/3 = -2.6666666666666665
+# 8//3 = 2   -- one step lesser than 8/3
+# 8%3 = 2  --- 8 - x * 3 (x * 3 lesser than 8)
+# -8%3 = 1
+
+
+
+"""
+identifier   -- name of variable, function, class, module
+a =10 
+alphanumerical or _ or it should not start with number 
+
+if def ma():
+      returns a,b
+
+then 
+_ , c = ma()
+
+mutuable and immutable 
+
+immutable -- int, float, complex, bool, string, tuple
+mutuable -- list, dict, set 
+
+
+immutable -- id will be  not same
+a=5
+a=3 
+id will be diff 
+
+b = 2
+c =2 
+id will be same
+
+del a 
+
+everything is python is an object 
+int is an object for eg 
+
+
+
+
+"""
