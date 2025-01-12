@@ -56,3 +56,43 @@
 
 # sets 
 
+# s = {1,2,3,4,51,2,3,2,1,1,5,1} 
+
+# s1 = set()  # blank element 
+# s1.add(10)
+# s1.add(20)
+# s1.add(2)
+
+# print(s1) # {10, 2, 20}
+
+
+# s1.add(10)
+# s1.add(20)
+# s1.add(1)
+# print(s1) # {1, 10, 20}
+
+
+# s1 = set()  # blank element  output --> set()
+# s1.add(10)
+
+# s1.add(10)
+# s1.remove(10)
+
+
+# print(s1) # {10}
+
+
+# s = {1, 11 ,2 , 3 ,21,1,2,11 }
+
+# for i in s: 
+#     print(i)  # 1, 2, 3, 11, 21
+
+
+# a = {1,2}
+# b = {1,3,4,5}
+
+# print(a-b) # {2}
+
+# # print(a+b) # TypeError: unsupported operand type(s) for +: 'set' and 'set'
+# print (a | b)  # {1, 2, 3, 4, 5}
+# print (a & b)  # {1}
